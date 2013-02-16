@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="Accueil.css" />
+	<title>The Shelf | Inscription</title>
+</head>
+
+<body>
+<div id="div_page">
+<!-- ----------------------------------------- HEADER ------------------------------------- -->
+	<header>
+		
+		<div>
+			<img alt="Zozor_Logo" src="Images/zozor_logo.png" id="header_logo"/>
+			<h1> 
+				The Shelf
+			</h1>
+			<h2 id="header_carnet">
+			Carnets de Lecture
+			</h2>
+		</div>
+	<!-- ----------------------------------------- NAVIGATOR ------------------------------------- -->
+		<nav>
+			<ul>
+				<li> <a href="Accueil.html">        Accueil  </a> </li>
+				<li> <a href="#">                   Biblio   </a> </li>
+				<li> <a href="#">                   Boutique </a> </li>
+				<li> <a href="#" id="nav_current">  Connexion</a> </li>
+			</ul>
+		</nav>
+
+	</header>
+	
+	<!-- ----------------------------------------- SECTION ------------------------------------- -->
+	<section>
+	<div id="div_color">
+	<div class="div_middle">
+	
+	<h1 id="div_ins">
+		<img alt="inscription" src="Images/Inscription.png" class="div_img"/>
+		C'est le moment de s'inscrire !!
+	</h1>
+	
+	<form method="get" action="treat.php" >
+		<fieldset>
+			<legend>Inscription</legend>
+			
+			<table>
+				<tr>
+					<td class="tab_left"> <label for="pseudo">Pseudo</label> : </td>
+					<td> <input type="text" name="pseudo" id="pseudo" autofocus required/> </td>
+				</tr>
+			
+				<tr>
+					<td class="tab_left"> <label for="pass1">Mot de passe</label> : </td>
+					<td> <input type="password" name="pass" id="pass" required/> </td>
+				</tr>
+				
+				<tr>
+					<td class="tab_left"> <label for="mail">Email</label> : </td>
+					<td> <input type="email" name="mail" id="mail" required/> </td>
+				</tr>
+				
+				<tr>			
+					<td class="tab_left"> <label for="pays"> Pays </label> : </td>
+					<td> <select name="pays" id="pays">
+							<optgroup label="Afrique">
+								<option>Tunisie</option>
+								<option>Libye</option>
+								<option>Algerie</option>
+							</optgroup>
+						
+							<optgroup label="Europe">
+								<option>France</option>
+								<option>Belgique</option>
+								<option>Italie</option>
+							</optgroup>
+						</select> 
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="tab_left"> <label for="genre">Genre</label> : </td>
+					<td> <input type="radio" name="genre" id="male" /> <label>Homme</label>
+						 <input type="radio" name="genre" id="female" /> <label>Femme</label>
+					</td>
+				</tr>
+		</table>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Validation</legend>
+			
+			<table>
+				<tr>
+					<td class="tab_left"> <label>Validation</label> : </td>
+					<td> <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LegoroSAAAAAG7tKmWXKsvG8f_9eId-KsY4UesW"></script> </td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" id="tab_val"> <input type="submit" name="submit">
+				</tr>
+			</table>		
+		
+		</fieldset>
+	
+	</form>
+	
+	</div>
+	</div>
+	</section>
+	
+	
+	
+		<!-- ----------------------------------------- FOOTER ------------------------------------- -->
+	<footer>
+		<div id="foot_news">
+			<h1>Dernieres nouvelles</h1>
+			<p> L'éditeur Livre de Poche envisage d'étendre<br/> son empire .. </p>
+			<h2>le 15 janvier à 20:20</h2>
+		</div>
+		
+		<div>
+			<h1>Parutions</h1>
+			<p>
+				<img alt="p1" src="Images/photo1.jpg"/>
+				<img alt="p2" src="Images/photo2.jpg"/>
+				<img alt="p3" src="Images/photo3.jpg"/>
+				<img alt="p4" src="Images/photo4.jpg"/>
+			</p>
+		</div>
+		
+		<div id="foot_une">
+			<h1>Auteurs à la une</h1>
+			<ul>
+				<li> <a href="#">Agatha Christie </a></li>
+				<li> <a href="#">St Exupéry      </a></li>
+				<li> <a href="#">Douglas Hurd    </a></li>
+				<li> <a href="#">Jules Verne     </a></li>
+			</ul>
+			
+			<ul>
+				<li> <a href="#">Ken Follet      </a></li>
+				<li> <a href="#">Brooke Stevens  </a></li>
+				<li> <a href="#">Paolo Coelho    </a></li>
+				<li> <a href="#">Jack London     </a></li>
+			</ul>
+		</div>	
+	</footer>
+
+
+
+
+</div>
+</body>
+</html>

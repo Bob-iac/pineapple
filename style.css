@@ -1,0 +1,387 @@
+@CHARSET "UTF-8";
+
+/*  --------------------------------------- Header ----------------------------------------------------- */
+header
+	{
+		background: url('Images/separateur.png') repeat-x bottom;
+		padding-top: 10px;	
+	}
+
+header div
+	{
+		width: 435px;
+		display: inline-block;	
+		margin-left: 50px;
+	}
+
+#header_logo
+	{
+		display: inline-block;
+		margin-bottom: 0px;
+	}
+	
+header h1
+	{
+		font-family: Ballpark, Verdana, serif;	
+		font-size: 2.5em;
+		font-weight: normal;
+		text-transform: none;
+		
+		margin-bottom: 0px;
+		
+		display: inline-block;
+	}
+header h2
+	{
+		font-family: Dayrom, Verdana, serif;
+		font-size: 1.1em;		
+		margin-left: 65px; 
+		margin-top: -10px;
+	}
+	
+	
+/*  --------------------------------------- NAVIGATOR --------------------------------------------------- */
+nav
+	{
+		width: 500px;
+		
+		font-family: Dayrom, serif;
+		font-size: 1.2em;
+		text-align: right;
+		text-transform: uppercase;
+		
+		display: inline-block;
+		vertical-align: top;
+		padding-top: 20px;
+
+		
+	}
+
+nav a
+	{
+		color: black;
+	}
+	
+nav a:HOVER
+	{
+		color: #760001;
+	}
+	
+nav ul
+	{
+		list-style-type: none;
+	}
+
+nav li
+	{
+		display: inline-block;
+		margin-left: 10px;
+	}
+
+#nav_current
+	{
+		color: rgb(119,0,1);
+		text-decoration: underline;
+	}
+
+/*  --------------------------------------- SAN FRANCISCO ----------------------------------------------- */
+#div_san_francisco
+	{
+		height: 200px;
+		background: url('Images/sanfrancisco.jpg') no-repeat;
+		
+		position: relative;
+		margin-top:15px;
+		margin-bottom:10px;
+		
+		border-radius:5px;
+		box-shadow: 0px 4px 4px #1c1a19;
+	}
+#div_commentaire
+	{
+		font-size: 0.8em;
+		color: white;
+		
+		width: 99%;
+		heigth:33px;
+		background-color: rgb(24,24,24);
+		background-color: rgba(24,24,24,0.8);
+		border-radius: 0px 0px 5px 5px;
+		padding: 15px 0px 15px 10px;
+		
+		position:absolute;
+		bottom:0;
+	}
+	
+#div_commentaire a
+	{
+		font-family: 'Trebuchet MS';
+		font-size: 1.2em;
+		text-align: center;	
+		color: white;
+		
+		
+		display: inline-block;
+		position: absolute;
+		height: 25px;
+		right: 5px;
+		bottom: 5px;
+		
+		background: url('Images/fond_degraderouge.png') repeat-x;
+		border: 1px solid #760001;
+		border-radius: 5px;
+		
+		padding: 3px 8px 0px 8px;
+		
+	}
+a img
+	{
+		border:0px;
+	}
+/*  --------------------------------------- SECTION ----------------------------------------------------- */
+section
+	{
+		position: relative;		
+	}
+
+article
+	{
+		font-size: 1.5em;
+		
+		display: inline-block;
+		vertical-align: top;
+		width: 680px;
+		
+		margin-right: 15px;
+	}
+
+aside
+	{
+		font-size: 1.5em;
+		color: white;
+		
+		display:inline-block;
+		width: 235px;
+		vertical-align: top;
+		
+		position: absolute;
+		
+		
+		background-color: rgb(111, 106,99);
+		border-radius: 5px;
+		
+		padding: 10px;
+		margin-top: 30px;
+	}
+
+aside h1
+	{
+		font-size: 0.7em;
+		text-align: center;
+		
+		margin: 0px;
+	}
+
+aside p
+	{
+		color: white;
+	}
+
+#as_bulle
+	{
+		position: absolute;
+		left: -12px;
+		top: 150px;
+	}
+	
+.as_center
+	{
+		text-align: center;
+		margin: 0px;
+	}
+
+#div_ins
+	{
+		font-size: 1.4em;
+	}
+	
+/*  --------------------------------------- INSCRIPTION ------------------------------------------------------ */
+Input , select
+	{
+		border: white solid 1px;
+		border-radius: 10px;
+		box-shadow: 2px 2px 6px #1c1a19;
+		letter-spacing: 1px;		
+	}
+
+
+fieldset
+	{
+		font-weight: bold;
+		font-size: 0.8em;
+		color: white;
+		background-color: #ABA38E;
+		border: none;
+		border-radius: 5px;
+		box-shadow: 2px 2px 6px #1c1a19;
+		
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding: 10px;
+	}
+
+label
+	{
+		margin: 5px;
+	}
+
+legend
+	{
+		font-size: 1.2em;
+		
+		background: url('Images/fond_degraderouge.png') repeat-x;
+		border: 1px solid #760001;
+		border-radius: 5px;
+		
+		padding: 3px 8px 0px 8px;
+	}
+
+.tab_left
+	{
+		width: 150px;
+		text-align: right;
+		margin-right:30px;
+	}
+
+#tab_val
+	{
+		text-align: center;
+	}
+
+/*  --------------------------------------- FOOTER ------------------------------------------------------ */
+footer
+	{
+		background: url('Images/ico_top.png') no-repeat top center,	url('Images/separateur.png') repeat-x top, url('Images/ombre.png') repeat-x top; 
+		padding-bottom: 10px;
+	}
+
+footer div
+	{
+		display: inline-block;
+		vertical-align: top;
+		width: 300px;
+		padding-top:20px;
+	}
+
+footer div a
+	{
+		font-size: 0.7em;
+		color: rgb(119,0,1);
+	}
+
+footer ul
+	{
+		list-style-image: url(Images/ul_fleche.png);
+		
+		display: inline-block;
+		position: relative;
+		left: -23px;
+		
+		margin: 0px;
+	}
+	
+footer img 
+	{
+		border: black solid 1px;
+	}
+footer p 
+	{
+		font-size: 0.8em;
+	}
+
+#foot_news
+	{
+		margin-left: 50px;
+	}
+	
+#foot_une
+	{
+		position: absolute;
+		right: 70px;
+	}
+	
+/*  --------------------------------------- GLOBAL SETTINGS --------------------------------------------- */
+body
+	{
+		font-family: 'Trebuchet MS', Arial, sans-serif;
+		background-color: black;;
+	}
+
+p
+	{
+		font-size: 0.5em;
+		text-align: justify;
+		color: #181818;
+	}
+
+a
+	{
+		text-decoration: none;
+	}
+
+h1
+	{
+		font-family: Daydom, Verdana, serif;
+		font-size: 1em;
+		font-weight: normal;
+		text-transform: uppercase;
+	}	
+h2
+	{
+		font-size: 0.8em;
+		font-weight: normal;
+	}
+
+#div_page
+	{
+		width: 1050px;
+		margin: auto;
+		background-image: url('Images/fond_jaune.png');
+	}
+
+.div_middle
+	{
+		width: 950px;
+		margin: auto;
+	}
+
+#div_color
+	{
+		padding-top:15px;
+		background-color: rgb(247, 235, 204);
+	}
+
+/*  --------------------------------------- Fonts ------------------------------------------------------- */
+@font-face 
+	{
+		font-family: 'Dayrom';
+		src: url('Polices/dayrom.eot');
+		src: url('Polices/dayrom.ttf')          format('ttf'),
+		     url('Polices/dayrom.svg#Dayrom')   format('svg'),
+		     url('Polices/dayrom.woff')         format('woff'),
+		     url('Polices/dayrom.eot?#iefix')   format('embedded-opentype');  
+		font-weight: normal;
+		font-style: normal;   
+	}
+
+@font-face 
+	{
+		font-family: 'Ballpark';
+		src: url('Polices/ballpark.eot');
+		src: url('Polices/ballpark.ttf')          format('ttf'),
+		     url('Polices/ballpark.svg#Ballpark') format('svg'),
+		     url('Polices/ballpark.woff')         format('woff'),
+		     url('Polices/ballpark.eot?#iefix')   format('embedded-opentype'); 
+		font-weight: normal;
+		font-style: normal;    
+	}
